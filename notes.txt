@@ -1,0 +1,23 @@
+Using this area for brainstorming:
+
+multisig nfts involve several people/wallets
+
+they create an nft together, and can then use said NFT as a collective to make decisions
+
+what decisions can they make? votes, investment, add cosigner, remove cosigner
+
+TODO:
+
+ - adjust all variable names in contract (state vs param vars)
+
+
+it should be ok to have owners, because that's part of what can make each NFT valuable and tradeable
+however, the owner should not be able to do anything with the NFT without creating a proposal and having
+co-signers vote on it just like any other member
+
+for instance, an nft project might want to create a multisig nft for it's holders to do group investments
+or pool funds for liquidity pools for tokens or their own NFT collection market makers
+
+i need to figure out a way that I can add actions into the future so that I can get an initial version published
+and make incremental upgrades to the project, or just think of everything from the jump
+
